@@ -591,33 +591,120 @@ a{
 }
 .reviews {
 }
+.container {
+}
 .reviews__container {
+  padding: 0 305px;
 }
-.reviews__container-titel-pagination {
+.reviews__title-pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 69px;
+
 }
-.reviews__titel {
+.reviews__title {
+  flex: 0 0 50%;
+  text-align: left;
 }
 .reviews__pagination {
+  display: flex;
+  flex: 0 0 50%;
+  justify-content: flex-end;
+  align-items: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #3F2EB3;
+
 }
 .reviews__pagination-prev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background-clip: content-box;
+  background-color: #3F2EB3;
+  border-radius: 50%;
+  border: 9px solid rgba(63, 46, 179, 0.2);
+  margin-right: 60px;
 }
 .reviews__pagination-page {
 }
 .reviews__pagination-slash {
+  padding: 0 5px;
+  color: #E0E0E0;
+}
+.reviews__pagination-total-page {
+  color: #E0E0E0;
 }
 .reviews__pagination-next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background-clip: content-box;
+  background-color: #3F2EB3;
+  border-radius: 50%;
+  border: 9px solid rgba(63, 46, 179, 0.2);
+  margin-left: 60px;
 }
-.reviews__element {
+.reviews__element-list {
+  display: flex;
+  justify-content: space-between;
+}
+.reviews__element{
+  border: 10px solid #E0E0E0;
+  margin-right: 30px; 
+}
+.reviews__element:hover{
+  border: 10px solid  #3F2EB3;
+}
+
+.reviews__element:nth-child(2n){
+  margin-right: 0;
+
 }
 .reviews__element-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgba(242, 242, 242, 0.2);
+  padding: 14px 29px 19px 14px;
+  border-bottom: 1px solid rgba(38, 34, 34, 0.2);
 }
 .reviews__element-title {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  color: #333333;
+  margin-bottom: 15px;
 }
 .reviews__element-logo {
 }
 .reviews__element-subtitle {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #333333;
+  opacity: 0.6;
 }
 .reviews__element-text {
+  font-size: 16px;
+  line-height: 150%;
+  margin: 20px 80px 28px 14px;
 }
 .reviews__element-read {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 250%;
+  color: #3F2EB3;
+  margin: 0 14px 19px 14px;
 }
+.reviews__element-read img{
+  margin-right: 15px;
+}
+
