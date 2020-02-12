@@ -231,6 +231,9 @@ a{
   line-height: 68px;
   margin-bottom: 15px;
 }
+.advantage--we-know .advantage__container-title{
+  color: #E3A127;
+}
 .advantage__container-title span{
   font-weight: 800;
   font-size: 24px;
@@ -242,10 +245,16 @@ a{
   background-color: #fff;
   margin-bottom: 15px;
 }
+.advantage--we-know .advantage__container-line {
+  background-color: #252121;
+}
 .advantage__container-text {
   font-weight: bold;
   font-size: 18px;
   line-height: 22px;
+}
+.advantage--we-know .advantage__container-text{
+  color: #252121;
 }
 .step__wrap {
   display: flex;
@@ -350,6 +359,8 @@ a{
 }
 .results__element:hover{
   border: 7px solid #fff;
+  box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.25);
+  transform: scale(1.1);
 }
 .results__element:nth-child(2n){
   margin-right: 0;
@@ -848,5 +859,95 @@ a{
   opacity: 0.5;
   margin: 0 auto;
   padding: 50px 0 50px;
+}
+
+/* cases page */
+
+.cases {
+}
+.cases__wrap {
+  margin: 125px 0 0;
+  padding: 0 305px;
+}
+.cases__title {
+  margin: 60px 105px;
+}
+.cases__title span{
+  color: #E3A127;
+}
+.cases__shop {
+  margin-bottom: 30px;
+}
+.cases__shop-title {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+  margin: 0 175px 43px 65px;
+  padding-top: 58px;
+}
+.cases__item-wrap {
+  display: flex;
+}
+.cases__item {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 29px 65px ;
+}
+.cases__item-text {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  padding-bottom: 30px;
+}
+.cases__item-number {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  color: #EDC21C;
+}
+
+.cases__pagination {
+  color: #25212180;
+  margin: 30px auto 134px;
+}
+.work__wrap {
+  width: 1110px;
+  min-height: 355px;
+  margin: 0 auto 125px;
+  position: relative;
+}
+.work__bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  right: -200px;
+  bottom: 0;
+  z-index: -1;
+  background-image: url(../images/work-bg.jpg);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+.work__title {
+  width: 50%;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.work__text {
+  width: 50%;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+.we-know__wrap {
+  width: 1110px;
+  margin: 0 auto;
+}
+.we-know__title {
+  width: 80%;
+  margin: 0 auto 60px;
 }
 
