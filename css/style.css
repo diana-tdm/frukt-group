@@ -41,7 +41,7 @@ a{
 .header{
 }
 
-.conteiner {
+.container {
   width: 1722px;
   margin: 0 auto;
   
@@ -509,7 +509,6 @@ a{
 .pagination__next {
 }
 .form--aline {
-  background: url(../images/form-aline-bg.jpg) no-repeat center / cover;
   margin-bottom: 214px;
 }
 .form {
@@ -518,6 +517,7 @@ a{
   align-items: center;
 }
 .container--form {
+  background: url(../images/form-aline-bg.jpg) no-repeat center / cover;
   color: #fff;
   position: relative;
 }
@@ -546,8 +546,7 @@ a{
   border: 20px solid #F2F2F2;
   color: #828282;
   padding: 27px 20px 28px;
-
-
+  margin: 0 auto;
 }
 .form__input {
   border-bottom: 1px solid #828282;
@@ -723,6 +722,7 @@ a{
 .blog__element {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 125px;
 }
 .blog__element-items {
   width: 33.333%;
@@ -760,3 +760,90 @@ a{
   color: #3F2EB3;
   margin: 0 14px 39px 30px;
 }
+
+.footer {
+  background-color: #333333;
+}
+.footer__wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1110px;
+  margin: 0 auto;
+}
+.footer__wrap-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 50px auto 0;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #FFFFFF;
+}
+.footer__company {
+  width: 33.333%;
+}
+.footer__title {
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+.footer__nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+.footer__link {
+  padding: 7px 0;
+}
+.footer__services {
+  width: 33.333%;
+}
+.footer__contacts {
+  width: 33.333%;
+}
+
+.footer_web {
+  margin-bottom: 15px;
+}
+.footer__link-list{
+  display: flex;
+  color: #fff;
+  opacity: 0.5;
+}
+.footer__link-icon{
+  padding-right: 25px;
+}
+
+.footer__phone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+  opacity: 0.5;
+  margin-bottom: 80px;
+}
+.footer-logo-text {
+}
+.footer-logo {
+  margin-bottom: 15px;
+}
+.footer-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+.footer__law {
+  display: flex;
+  justify-content: center;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+  opacity: 0.5;
+  margin: 0 auto;
+  padding: 50px 0 50px;
+}
+
