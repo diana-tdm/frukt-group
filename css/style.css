@@ -475,7 +475,7 @@ a{
   color: #fff;
 }
 .clients__element-list--type .clients__element--active {
-background-color: #E3A127;
+  background-color: #E3A127;
 }
 .clients__element--accent {
   color: #E3A127;
@@ -517,7 +517,7 @@ background-color: #E3A127;
   display: flex;
   justify-content: center;
   align-items: center;
-
+  
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
@@ -547,7 +547,7 @@ background-color: #E3A127;
 }
 .pagination__page--active {
   background-color: #3F2EB3;
-    color: #fff;
+  color: #fff;
 }
 .pagination__spacer {
   margin-right: 14px;
@@ -708,7 +708,7 @@ background-color: #E3A127;
 
 .reviews__element:nth-child(2n){
   margin-right: 0;
-
+  
 }
 .reviews__element-items {
   display: flex;
@@ -754,7 +754,7 @@ background-color: #E3A127;
 .blog {
 }
 .container {
-
+  
 }
 .blog__container {
   padding: 0 305px;
@@ -987,7 +987,7 @@ background-color: #E3A127;
   margin-bottom: 30px;
 }
 .wrap-pagination {
-margin-top: 60px;
+  margin-top: 60px;
 }
 .clients__element-title {
   font-weight: 800;
@@ -1002,7 +1002,7 @@ margin-top: 60px;
 }
 .container--form-right{
   display: flex;
-
+  
 }
 .form-right__bg {
   width: 50%;
@@ -1068,4 +1068,61 @@ margin-top: 60px;
   box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.25);
   margin-top: 30px;
   color: #fff;
+}
+
+/* targeting page */
+
+.targeting {
+}
+.container {
+}
+.targeting__container {
+  color: #fff;
+}
+.targeting__task {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 106px 305px 82px;
+}
+.targeting__task-wrap {  
+}
+.targeting__task-title {
+  text-align: center;
+}
+.targeting__task-text {
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+  width: 50%;
+  margin: 27px auto 73px;
+  text-align: center;
+}
+.targeting__task-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.targeting__element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.targeting__element-title {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 5px;
+  
+}
+.targeting__element-text {
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+.targeting__element-line {
+  width: 66px;
+  height: 3px;
+  background-color: #fff;
 }
