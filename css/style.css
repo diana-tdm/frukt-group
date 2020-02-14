@@ -1126,3 +1126,135 @@ a{
   height: 3px;
   background-color: #fff;
 }
+.product {
+  
+}
+.product__title {
+  text-align: center;
+  margin-top: 125px;
+}
+.product__element {
+  display: flex;
+  flex-direction: row;
+  padding: 60px 350px 0;
+}
+.product__element-footnote {
+  width: 36%;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  color: #3F2EB3;
+  margin-right: 30px;
+}
+.product__element-text {
+  width: 64%;
+  font-size: 16px;
+  line-height: 150%;
+  color: #252121;
+}
+.marketing {
+}
+.container {
+}
+.marketing__container {
+  width: 1110px;
+}
+.product__title {
+  padding: 0 80px 60px;
+  text-align: center;
+  margin-top: 125px;
+  
+}
+.marketing__element-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.marketing__element {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 25%;
+  padding: 0 20px;
+}
+.marketing__element::after,
+.marketing__element::before{
+  content: "";
+  position: absolute;
+  width: 50%;
+  top: 0;
+  height: 1px;
+  background-color: #E3A127;
+  z-index: 1;
+}
+.marketing__element::after{
+  left: 0;
+}
+.marketing__element::before{
+  right: 0;
+}
+.marketing__element:nth-child(4n+1)::after{
+  content: none;
+}
+.marketing__element:nth-child(4n+4)::before{
+  content: none;
+}
+.marketing__element:nth-child(8n+2),
+.marketing__element:nth-child(8n+4),
+.marketing__element:nth-child(8n+5),
+.marketing__element:nth-child(8n+7) {
+  background-color: #FBFBFB;
+}
+.marketing__element-number {
+  width: 50px;
+  height: 50px;
+  transform: translateY(-25px);
+  border-radius: 50%;
+  background-color: #fff;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 50px;
+  color: rgba(37, 33, 33, 0.5);
+  text-align: center;
+  margin: 0 auto 43px;
+  z-index: 2;
+}
+.marketing__element-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  padding-bottom: 23px;
+  border-bottom: 2px solid #E0E0E0;
+  margin-bottom: 20px;
+}
+
+.marketing__element-text-plus {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  padding: 0 8px;
+  margin-bottom: 72px;
+}
+.marketing__element-plus {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  color: #E3A127;
+  width: 15%;
+  text-align: center;
+  margin-top: 5px;
+}
+.marketing__element-text {
+  font-size: 14px;
+  line-height: 17px;
+  color: #252121;
+  width: 85%;
+}
+.cases__element-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
