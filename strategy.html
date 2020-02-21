@@ -16,10 +16,17 @@
     <div class="container">
       <div class="header__top">
         <div class="logo">
-          <a href="index.html"><img src="images/header-logo.svg" alt=""></a>
+          <a href="index.html">
+            <img class="logo__desktop" src="images/header-logo.svg" alt="">
+            <img class="logo__mobile" src="images/logo-mobile.svg" alt="">
+          </a>
         </div>
         <div class="header__info">
           Facebook marketing agency
+        </div>
+        <div class="menu-btn">
+          Меню
+          <span class="menu-btn__burger"></span>
         </div>
         <nav class="menu">
           <ul class="menu__list">
@@ -31,16 +38,24 @@
           </ul>
         </nav>
         <div class="contacts">
-          <div class="number">+38 (073) 717 77 63</div>
-          <div class="number-info">пн-пт: 09:00 - 18:00</div>
+          <a class="number" href="tel:+380737177763">
+            +38 (073) 717 77 63
+          </a>
+          <div class="number-info">
+            пн-пт: 09:00 - 18:00
+          </div>
         </div>
       </div>
     </div>
   </header>
 
+  <div class="header__spacer">
+
+  </div>
+
   <section class="crumbs">
     <div class="container crumbs__container">
-      <div class="crumbs__list">
+      <div class="crumbs__list wrap">
         <a class="crumbs__link crumbs__link-main" href="">Главная</a>
         <span class="crumbs__divider">/</span>
         <a class="crumbs__link" href="">Портфолио</a>
@@ -204,7 +219,7 @@
         </div>
         <img src="images/arrow.svg" alt="">
       </div>
-      <div class="form-right__form">
+      <div class="form-right__form shake">
         <div class="form-right__form-title">
           Бесплатная консультация
         </div>
