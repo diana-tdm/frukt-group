@@ -1,8 +1,8 @@
-*{
+* {
   box-sizing: border-box;
 }
 
-body{
+body {
   display: flex;
   flex-direction: column;
   font-family: 'Montserrat', sans-serif;
@@ -11,7 +11,7 @@ body{
   overflow-x: hidden;
 }
 
-@media (max-width: 1440px){
+@media (max-width: 1440px) {
   body {
     padding: 0 15px;
   }
@@ -63,7 +63,7 @@ a{
   width: 100%;
   padding: 0 100px;
 }
-.header__spacer {
+.header-spacer {
   height: 100px;
 }
 .container {
@@ -250,7 +250,6 @@ a{
 
 .container--hero {
   background: url(../images/hero-bg.jpg) no-repeat center / cover;
-  padding: 0 305px;
   display: flex;
   flex-direction: column;
 }
@@ -272,7 +271,7 @@ a{
   font-size: 56px;
   line-height: 68px;
   margin-bottom: 40px;
-} 
+}
 .hero__info-text {
   font-weight: 500;
   font-size: 24px;
@@ -323,7 +322,7 @@ a{
   text-align: center;
   margin-bottom: 47px;
 }
-.hero__form-start-btn {
+.hero__form-btn {
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
@@ -336,6 +335,11 @@ a{
   margin-bottom: 18px;
   color: #fff;
 }
+.hero__form-start-btn {
+}
+.hero__form-order-btn {
+  display: none;
+}
 .hero__form-input-check {
   font-weight: 500;
   font-size: 10px;
@@ -344,6 +348,9 @@ a{
 }
 .hero__form-input-check input {
   margin-right: 15px;
+}
+.advantage-section{
+  display: none;
 }
 .advantage {
   display: flex;
@@ -392,6 +399,33 @@ a{
 }
 .advantage--we-know .advantage__container-text{
   color: #252121;
+}
+@media (max-width: 992px) {
+  .hero__wrap {
+    flex-direction: column;
+  }
+  .hero__info {
+  margin: 30px 0 120px;
+  text-align: center;
+  }
+  .hero__form-input, .hero__form-text, .hero__form-input-check {
+    display: none;
+  }
+  .hero__form {
+    width: 100%;
+  }
+  .hero__form-start-btn {
+  display: none;
+  }
+  .hero__form-order-btn {
+    display: block;
+  }
+  .advantage-section {
+    display: block;
+  }
+  .hero .advantage {
+    display: none;
+  }
 }
 .step__wrap {
   display: flex;
@@ -462,12 +496,11 @@ a{
 }
 .results__container{
   background: url(../images/results-bg.jpg) no-repeat center / cover;
-  padding: 60px 305px;
+  padding: 60px 0;
 }
 .results__wrap {
   display: flex;
   flex-wrap: wrap;
-  width: 1110px;
   margin: 0 auto;
 }
 .results__title {
@@ -566,8 +599,7 @@ a{
 }
 
 .clients__wrap {
-  margin: 125px 0 0;
-  padding: 0 305px;
+  margin: 125px auto 0;
 }
 .clients__title {
   margin-bottom: 62px;
@@ -719,7 +751,6 @@ a{
   align-items: flex-start;
   justify-content: center;
   background-color: #fff;
-  width: 1110px;
   border: 20px solid #F2F2F2;
   color: #828282;
   padding: 27px 20px 28px;
@@ -770,7 +801,6 @@ a{
 .container {
 }
 .reviews__container {
-  padding: 0 305px;
   margin-bottom: 125px;
 }
 .reviews__title-pagination {
@@ -888,7 +918,6 @@ a{
   
 }
 .blog__container {
-  padding: 0 305px;
 }
 .blog__title {
   text-align: left;
@@ -943,7 +972,6 @@ a{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 1110px;
   margin: 0 auto;
 }
 .footer__wrap-menu{
@@ -1028,7 +1056,6 @@ a{
 }
 .cases__wrap {
   margin: 125px 0 0;
-  padding: 0 305px;
 }
 .cases__title {
   margin: 60px 105px;
@@ -1076,7 +1103,6 @@ a{
   margin: 30px auto 134px;
 }
 .work__wrap {
-  width: 1110px;
   min-height: 355px;
   margin: 0 auto 125px;
   position: relative;
@@ -1104,7 +1130,6 @@ a{
   line-height: 17px;
 }
 .we-know__wrap {
-  width: 1110px;
   margin: 0 auto;
 }
 .we-know__title {
@@ -1112,7 +1137,6 @@ a{
   margin: 0 auto 60px;
 }
 .reviews__wrap {
-  padding: 0 305px;
 }
 .wrap-list{
   margin-bottom: 30px;
@@ -1137,7 +1161,7 @@ a{
 }
 .form-right__bg {
   width: 50%;
-  padding: 106px 0 110px 305px;
+  padding: 106px 0 110px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1214,7 +1238,7 @@ a{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 106px 305px 82px;
+  padding: 106px 0 82px;
 }
 .targeting__task-wrap {  
 }
@@ -1288,13 +1312,11 @@ a{
 .container {
 }
 .marketing__container {
-  width: 1110px;
 }
 .product__title {
   padding: 0 80px 60px;
   text-align: center;
   margin-top: 125px;
-  
 }
 .marketing__element-list {
   display: flex;
@@ -1394,9 +1416,7 @@ a{
 .container {
 }
 .niche__container {
-  width: 1110px;
   margin: 0 auto 125px;
-  
 }
 .niche__title {
   margin-bottom: 72px;
@@ -1454,7 +1474,6 @@ a{
 .container {
 }
 .tools__container {
-  width: 1110px;
   margin-bottom: 125px;
 }
 .tools__title {
@@ -1509,7 +1528,6 @@ a{
 .container {
 }
 .industries__container {
-  width: 1110px;
 }
 .industries__title{
   text-align: center;
@@ -1566,7 +1584,6 @@ a{
 .container {
 }
 .sales__container {
-  width: 1110px;
 }
 .sales__title {
   margin: 125px auto 60px;
